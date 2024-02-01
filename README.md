@@ -6,7 +6,9 @@ b=br + j bi where r and i denotes real and imaginary part.
 In this project we use only one multiplier for all multiplactions which are done.
 product=(arbr-aibi)+j(arbi+aibr)
 We design this by using a data path and a control unit.
-The schematic of Datapath is given in the png file.
+The schematic of Datapath is as follows
+![Datapath of the complex multiplier](https://github.com/Yogendra-7777/Complex-Multiplier-using-verilog/assets/158204977/6b4885c0-6244-49ca-8064-039495a4ae06)
+
 The control unit of this design can be implemented by using a FSM.
 The state table and their respective inputs of the FSM are given.
 In the datapath of the complex multiplier we can see multiple inputs to the circuitry but the user can only give ar,ai,br,bi inputs so the remaining inputs and their changes should be made automatically in a sequenced order to get the desired product.
