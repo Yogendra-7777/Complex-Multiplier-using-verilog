@@ -22,6 +22,10 @@ Control sequence for the control signals of the sequential complex multiplier
 4. Multiply a_r and b_i, and store the result in partial product register 1.
 5. Multiply a_i and b_r, and store the result in partial product register 2.
 6. Add the partial product register values and store the result in the product imaginary part register.
+7. We add an additional input called input enabled for top module which is used to enable our FSM.
+8. If ie=0 then the FSM will be in step 1 only.once ie=1 then the state transition starts.
+9. ![image](https://github.com/Yogendra-7777/Complex-Multiplier-using-verilog/assets/158204977/4d4599f1-c562-4070-8820-5814bfc03a50)
+
 The top module finally obtained looks as follows
 ![RTL schematic](https://github.com/Yogendra-7777/Complex-Multiplier-using-verilog/assets/158204977/7e8450cf-83da-4520-b6db-838936bec81c)
 This has ar,ai,br,bi as primary inputs and we give clock and reset to control the actions of control unit.
