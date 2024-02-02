@@ -1,7 +1,7 @@
 # Complex-Multiplier-using-verilog
 This is a FSM based digital subsystem design used to multiply two one bit complex numbers.This may be further increased into more bits also for higher computation.
 Let the two complex numbers are
-a=ar + j ai
+a=ar + j ai;
 b=br + j bi where r and i denotes real and imaginary part.
 In this project we use only one multiplier for all multiplactions which are done.
 product=(arbr-aibi)+j(arbi+aibr)
